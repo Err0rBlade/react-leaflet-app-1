@@ -1,0 +1,26 @@
+.leaflet-container {
+  /* height: 90vh !important; */
+  width: 100%;
+}
+.leaflet-control-container .leaflet-routing-container-hide {
+  width: 52px !important;
+  height: 52px !important;
+}
+.leaflet-routing-geocoders input {
+  width: 303px;
+  width: calc(100% - 10px) !important;
+  line-height: 2;
+  border: 1px solid #ccc;
+}
+.leaflet-routing-reverse-waypoints {
+  margin-top: 5px !important;
+}
+.leaflet-routing-add-waypoint {
+  margin-top: 7px !important;
+}
+div.leaflet-top.leaflet-left {
+  margin-top: 10vh !important;
+}
+/* div.leaflet-top.leaflet-right {
+  margin-top: 10vh !important;
+} */
