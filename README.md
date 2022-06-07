@@ -79,16 +79,16 @@ Start Dev Server ( both React server and Nodejs server )
 
 **Homepage**
 
-<img src="https://imgur.com/4z5Qn56">
+<img src="https://i.ibb.co/wr9fb3C/ss1.png" alt="ss1" border="0" />
 
 **Login**
 
-<img src="https://imgur.com/tRCzx2V">
+<img src="https://i.ibb.co/dPJ2Kwm/ss3.png" alt="ss3" border="0" />
 
 **Register**
 
-<img src="https://imgur.com/PocLdct">
+<img src="https://i.ibb.co/Vt7RKtw/ss2.png" alt="ss2" border="0" />
 
 **Map Page**
 
-<img src="https://imgur.com/exv6Bni">
+<img src="https://i.ibb.co/yPXNRPp/ss4.png" alt="ss4" border="0" />
