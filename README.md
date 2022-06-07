@@ -79,11 +79,11 @@ Start Dev Server ( both React server and Nodejs server )
 
 **Homepage**
 
-<img src="https://i.imgur.com/mjdMhvd.png">
+<img src="https://imgur.com/4z5Qn56">
 
 **Login**
 
-<img src="https://i.imgur.com/FVRZcER.png">
+<img src="https://imgur.com/tRCzx2V">
 
 **Register**
 
