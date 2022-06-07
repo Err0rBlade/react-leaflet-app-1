@@ -36,18 +36,19 @@ export class HomePage extends Component {
         <div className="main">
           <h1 style={divStyle}>
             {" "}
-            <strong>Safeguard</strong> Safety Routing{" "}
+            <strong>Safeguard</strong>{" "}
           </h1>
           <br />
           <h5 style={divStyle}>
-            Evade zombies on the map{" "}
+            AI powered "Safety routing" application{" "}
             <span role="img" aria-label="lock">
               🔒{" "}
             </span>
-            <br></br>Equipped with DBSCAN algorithm clusters of zombies.
+            <br></br>Equipped with DBSCAN algorithm to help maneuver the route
+            to evade crime clusters.
           </h5>
           <h5 style={divStyle}>
-            Brains{" "}
+            Stay Safe{" "}
             <span role="img" aria-label="lock">
               🍪{" "}
             </span>
