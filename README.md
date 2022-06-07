@@ -1,18 +1,43 @@
-## MERN Login Signup Component
+## Application overview
 
-⚠ **Update 3rd April 2021** : React and NodeJS packaged updated/fixed using `npm audit`, Packages updated may have breaking changes, If running the code in this repo causes any issues, send me an e-mail ⚠
+⚠ **Primary Aim is to find out major patterns of criminal activities which will help the anti-criminal agencies to take actions beforehand. ⚠
 
-Minimalistic, ready-to-use component for Sessions based Login and Sign-Up using Reactjs, Redux, Bootstrap Node.js + Express and MongoDB, can be used as a starting point for another project that needs authentication.
+## Proposed System
+User can interact with the system for the following:
+- Safe travel
+The system can be used by any user who wants to travel safely. The user’s current location is monitored using the phone GPS. The user will then enter the destination. With the help of the Leaflet javascript Routing Machine API, the shortest route will be visible to the user. By dragging the route given over the map, the user can maneuver the route, avoiding any crime clusters on the map, according to the safety requirements. The UI will provide all functionalities related to directions of the route selected, safety value of the streets, enroute destinations etc.
+- Feedback
+After the safe completion of the journey, the user will be prompted to fill out a feedback form where additional information required to the system is taken which will help in improving the output. This information is fed back into the database, which will improve the further iterations of the clustering function.
+Information taken would be regarding- 
+The safety of the route,
+Any suspicious activity that may have occurred,
+Presence of any CCTV cameras over the route,
+Condition of street lights and
+Overall experience with the system such as UI design and usability.
 
-## Features
+
+## The Routing Mechanism
+
+- Leaflet, a javascript based API is used for map functions on the page. The leaflet ‘Routing machine’ provides all routing requirements for the project. 
+
+## UI - Features
 
 - Login page with success/error messages
 - Register page with success/error messages
+- ROUTING Layout showing primary and alternate directions
+- DRAGGABLE Route.
+- Option to add waypoints
+- Different Tiles to choose from 
 - Protected Profile page route that needs authentication to access
 - Persistence achieved using Sessions, with session ID stored on Cookie
 - Logout deletes session in database and cookie from browser
 - Fully responsive across Desktop, Tablet and Mobile
 
+## My Research Paper
+
+```
+ https://sersc.org/journals/index.php/IJFGCN/article/view/17786
+```
 
 ## Prerequisites
 
@@ -20,36 +45,29 @@ Minimalistic, ready-to-use component for Sessions based Login and Sign-Up using 
 - NPM
 - React
 - MongoDB Atlas MongoURI
-- **.env file with ENV variables**, a .env template is provided
+
 
 ## Quick Start
 
 Clone the repository
 
 ```
- https://github.com/shawn-dsilva/mern-login-signup-component.git
+ https://github.com/Err0rBlade/react-leaflet-app-1.git
 ```
 
 Install packages for Node backend
 
 ```
- cd mern-login-signup-component
+ cd ReactLeafletApp
  npm install
 ```
 
 Install packages for React client
 
 ```
- cd mern-login-signup-component/client
+ cd ReactLeafletApp/client
  npm install
 ```
-To Test Locally
-
-remove the line ```"homepage": "https://demos.shawndsilva.com/sessions-auth-app",```
-from ```client/package.json```
-remove ```basename="/sessions-auth-app"```
-from ```client/src/index.js```
-
 
 Start Dev Server ( both React server and Nodejs server )
 
@@ -60,28 +78,17 @@ Start Dev Server ( both React server and Nodejs server )
 ## Image Gallery
 
 **Homepage**
+
 <img src="https://i.imgur.com/mjdMhvd.png">
 
 **Login**
 
 <img src="https://i.imgur.com/FVRZcER.png">
 
-**Login with Error message**
-
-<img src="https://i.imgur.com/UQVkaZD.png">
-
 **Register**
 
-<img src="https://i.imgur.com/FDNERPS.png">
+<img src="https://imgur.com/PocLdct">
 
-**Register with Error message**
+**Map Page**
 
-<img src="https://i.imgur.com/uDj6axZ.png">
-
-**Register with Success message**
-
-<img src="https://i.imgur.com/82C8VQM.png">
-
-**Profile Page**
-
-<img src="https://i.imgur.com/JMi9yrH.png">
+<img src="https://imgur.com/exv6Bni">
